@@ -88,6 +88,45 @@ Running 'dotnet restore' on /home/ec2-user/environment/dot-net-6-aws/WebServiceA
 Restore succeeded.
 ```
 
+Let's change the default code a bit by adding slightly fancier route.  You can find more information about Routing in ASP.NET Core here:
+https://docs.microsoft.com/en-us/aspnet/core/fundamentals/routing?view=aspnetcore-6.0. Note in the following example how similar this code looks to other high level languages like Node, Ruby, Python or Swift.
+
+```csharp
+var builder = WebApplication.CreateBuilder(args);
+var app = builder.Build();
+
+app.MapGet("/", () => "Home Page");
+app.MapGet("/hello/{name:alpha}", (string name) => $"Hello {name}!");
+app.Run();
+```
+
+Now you can run this code by changing into the directory using `dotnet run`
+
+```bash
+cd WebServiceAWS && dotnet run
+```
+
+The output looks something like this in AWS Cloud9.  Note how cool it is that you can see the full content root path showing for your Cloud9 Environment making it easy to host multiple projects and switch back and forth between working on them.
+
+```bash
+ec2-user:~/environment/dot-net-6-aws (main) $ cd WebServiceAWS && dotnet run
+Building...
+info: Microsoft.Hosting.Lifetime[14]
+      Now listening on: https://localhost:7117
+info: Microsoft.Hosting.Lifetime[14]
+      Now listening on: http://localhost:5262
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+      Content root path: /home/ec2-user/environment/dot-net-6-aws/WebServiceAWS/
+```
+
+
+
+
+
+
+
+
 
 
 
