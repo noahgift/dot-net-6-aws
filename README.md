@@ -15,7 +15,7 @@ sudo yum install dotnet-runtime-6.0
 ### Create Hello World
 
 ```bash
-dotnet new console -o hello &&\ 
-  cd hello &&\
-  dotnet run
+dotnet new console -o hello \
+    && cd hello \
+    && dotnet run
 ```
