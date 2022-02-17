@@ -19,3 +19,8 @@ dotnet new console -o hello \
     && cd hello \
     && dotnet run
 ```
+
+### Running in Docker
+
+A good reference point is :
+https://github.com/aws/aws-lambda-dotnet/blob/master/LambdaRuntimeDockerfiles/Images/net6/amd64/Dockerfile
