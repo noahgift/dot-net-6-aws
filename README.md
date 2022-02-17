@@ -24,8 +24,10 @@ dotnet new console -o hello \
 ### Running Docker in Cloud9
 
 A good reference point is an AWS Lambda Dockerfile:
-https://gallery.ecr.aws/lambda/dotnet
-In order to build it, first the Cloud9 environment needs resizing.
+https://gallery.ecr.aws/lambda/dotnet.  This contains instructions on how to build AWS Lambda that targets the .NET 6 runtime.
+Another great resource is the official .NET 6 support on AWS:  https://github.com/aws-samples/aws-net-guides/tree/master/RuntimeSupport/dotnet6
+
+In order to build containers, I first the Cloud9 environment needs resizing. Let's tackle that next.
 
 #### Resizing
 
@@ -53,14 +55,38 @@ tmpfs           6.3G     0  6.3G   0% /run/user/1000
 tmpfs           6.3G     0  6.3G   0% /run/user/0
 ```
 
-Now I can build the container.  On my Cloud9 environment I cd into the Lambda directory:
+Next let's build an AWS Lambda container with .NET 6.
+
+#### Containerized.NET 6 on Lambda 
+
+To build a Lambda container on my Cloud9 environment I cd into the Lambda directory:
 
 ```bash
 cd /home/ec2-user/environment/dot-net-6-aws/Lambda
 ```
-
 Then I run `docker build -t dotnet6-lambda .`
 
+#### Containerized .NET 6 on API
+
+Another way to go is to build a Microservice that deploys with a container service like AWS ECS or AWS App Runner.  Both methods offer an efficient way to deploy an API with minimal effort.
+To get started first create a new web API project in Cloud9.
+
+```bash
+dotnet new web -n WebServiceAWS
+```
+
+Running this in my Cloud9 environment generates the following output:
+
+```bash
+ec2-user:~/environment/dot-net-6-aws (main) $ dotnet new web -n WebServiceAWS
+The template "ASP.NET Core Empty" was created successfully.
+
+Processing post-creation actions...
+Running 'dotnet restore' on /home/ec2-user/environment/dot-net-6-aws/WebServiceAWS/WebServiceAWS.csproj...
+  Determining projects to restore...
+  Restored /home/ec2-user/environment/dot-net-6-aws/WebServiceAWS/WebServiceAWS.csproj (in 88 ms).
+Restore succeeded.
+```
 
 
 
