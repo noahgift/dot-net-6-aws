@@ -24,7 +24,7 @@ dotnet new console -o hello \
 ### Running Docker in Cloud9
 
 A good reference point is an AWS Lambda Dockerfile:
-https://github.com/aws/aws-lambda-dotnet/blob/master/LambdaRuntimeDockerfiles/Images/net6/amd64/Dockerfile
+https://gallery.ecr.aws/lambda/dotnet
 In order to build it, first the Cloud9 environment needs resizing.
 
 #### Resizing
@@ -59,7 +59,7 @@ Now I can build the container.  On my Cloud9 environment I cd into the Lambda di
 cd /home/ec2-user/environment/dot-net-6-aws/Lambda
 ```
 
-
+Then I run `docker build -t dotnet6-lambda .`
 
 
 
