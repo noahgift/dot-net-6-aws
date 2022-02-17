@@ -1,4 +1,5 @@
 # Based on Docker image from: https://github.com/dotnet/dotnet-docker/
+# This is the same Docker image as:  https://github.com/aws/aws-lambda-dotnet/blob/master/LambdaRuntimeDockerfiles/Images/net6/amd64/Dockerfile
 
 ARG ASPNET_VERSION=6.0.2
 ARG ASPNET_SHA512=190959576342542bfe51c48808011236e86dcb12779c8e9e444a71f1b778302972ab291adce0c185f6b9790b11867173934968ed88ccb9530266faaa1a05829b
