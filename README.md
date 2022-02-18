@@ -181,6 +181,14 @@ Now invoke it via curl: `curl http://localhost:8080/hello/aws`
 
 ![5-6-ecr](https://user-images.githubusercontent.com/58792/154720964-0e7de542-b640-4ce1-b78a-c0fd39a35aaf.png)
 
+Create a new ECR Repo:
+
+![5-6-2-ecr-create](https://user-images.githubusercontent.com/58792/154752026-4ec362f8-c4d0-436f-9759-d9eb2ae928d8.png)
+
+Next click on the repo to find the push commands.
+
+![5-6-3-ecr-push](https://user-images.githubusercontent.com/58792/154752107-56b9bf03-d1c1-44b2-b906-091aa7f0841f.png)
+
 ##### App Runner
 
 <img width="976" alt="5-7-app-runner" src="https://user-images.githubusercontent.com/58792/154722019-87efa041-ea03-40c4-a166-73122fc239a3.png">
