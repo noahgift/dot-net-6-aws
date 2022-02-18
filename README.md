@@ -189,6 +189,11 @@ Next click on the repo to find the push commands.
 
 ![5-6-3-ecr-push](https://user-images.githubusercontent.com/58792/154752107-56b9bf03-d1c1-44b2-b906-091aa7f0841f.png)
 
+Now checkout the image:
+
+
+![5-6-4-ecr-image](https://user-images.githubusercontent.com/58792/154753326-fb3b0b4d-23fe-4e40-b447-e5aba40ef5b0.png)
+
 ##### App Runner
 
 <img width="976" alt="5-7-app-runner" src="https://user-images.githubusercontent.com/58792/154722019-87efa041-ea03-40c4-a166-73122fc239a3.png">
