@@ -1,5 +1,5 @@
-# dot-net-6-aws
-.NET 6 on AWS
+# dot-net-6-aws-containers
+.NET 6 on AWS for Containers using Cloud9
 
 ## This covers installation on Cloud9
 
