@@ -120,12 +120,13 @@ info: Microsoft.Hosting.Lifetime[0]
       Content root path: /home/ec2-user/environment/dot-net-6-aws/WebServiceAWS/
 ```
 
+You can see the output below, note how cool it is to toggle terminals side by side along side the code.
 
 ![5-4-cloud9-aspnet](https://user-images.githubusercontent.com/58792/154587840-d892150d-9b11-4c42-aee3-7fb9400ce689.png)
 
+##### Containerize the Project
 
-
-
+Now let's convert our project to using a container so it can be deployed to services that support containers.
 
 
 
