@@ -229,4 +229,11 @@ Review Architecture:
 
 <img width="1218" alt="5-8-co-pilot" src="https://user-images.githubusercontent.com/58792/154723375-76907b87-9af2-4b25-8ac6-9fc63ea20ffb.png">
 
+## Reference
+
+* [Watch walkthrough on YouTube](https://www.youtube.com/watch?v=nUAQHzz_t9k)
+* [Watch walkthrough on O'Reilly](https://learning.oreilly.com/search/?query=noah%20gift&extended_publisher_data=true&highlight=true&include_assessments=false&include_case_studies=true&include_courses=true&include_playlists=true&include_collections=true&include_notebooks=true&include_sandboxes=true&include_scenarios=true&is_academic_institution_account=false&source=user&sort=relevance&facet_json=true&json_facets=true&page=0&include_facets=true&include_practice_exams=true)
+
+
+
 
