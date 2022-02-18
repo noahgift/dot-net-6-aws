@@ -148,14 +148,17 @@ ENV ASPNETCORE_URLS=http://+:8080
 
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "WebServiceAWS"]
+ENTRYPOINT ["dotnet", "WebServiceAWS.dll"]
 ```
 
 Now build this container.
 
 `docker build . -t web-service-dotnet:latest`
 
+You can take a look at the container by using `docker image ls`.
+The output should look something like this.
 
+`web-service-dotnet  latest  3c191e7643d5   38 seconds ago   208MB`
 
 
 
