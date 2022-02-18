@@ -175,6 +175,7 @@ The output should like follows:
 
 Now invoke it via curl: `curl http://localhost:8080/hello/aws`
 
+![5-5-containerized-dotnet](https://user-images.githubusercontent.com/58792/154597821-85538b62-c1ba-486a-9250-9c43d3600be8.png)
 
 
 
