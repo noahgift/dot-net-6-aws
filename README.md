@@ -160,8 +160,20 @@ The output should look something like this.
 
 `web-service-dotnet  latest  3c191e7643d5   38 seconds ago   208MB`
 
+To run it do the following:
 
+`docker run -p 8080:8080 web-service-dotnet:latest`
 
+The output should like follows:
+
+```bash
+ listening on: {address}"}}
+{"EventId":0,"LogLevel":"Information","Category":"Microsoft.Hosting.Lifetime","Message":"Application started. Press Ctrl\u002BC to shut down.","State":{"Message":"Application started. Press Ctrl\u002BC to shut down.","{OriginalFormat}":"Application started. Press Ctrl\u002BC to shut down."}}
+{"EventId":0,"LogLevel":"Information","Category":"Microsoft.Hosting.Lifetime","Message":"Hosting environment: Production","State":{"Message":"Hosting environment: Production","envName":"Production","{OriginalFormat}":"Hosting environment: {envName}"}}
+{"EventId":0,"LogLevel":"Information","Category":"Microsoft.Hosting.Lifetime","Message":"Content root path: /app/","State":{"Message":"Content root path: /app/","contentRoot":"/app/","{OriginalFormat}":"Content root path: {contentRoot}"}}
+```
+
+Now invoke it via curl: `curl http://localhost:8080/hello/aws`
 
 
 
