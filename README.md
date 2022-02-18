@@ -179,10 +179,16 @@ Now invoke it via curl: `curl http://localhost:8080/hello/aws`
 
 ##### ECR
 
+![5-6-ecr](https://user-images.githubusercontent.com/58792/154720964-0e7de542-b640-4ce1-b78a-c0fd39a35aaf.png)
+
 ##### App Runner
+
+<img width="976" alt="5-7-app-runner" src="https://user-images.githubusercontent.com/58792/154722019-87efa041-ea03-40c4-a166-73122fc239a3.png">
+
 
 ##### AWS Copilot CLI
 
 
+<img width="1218" alt="5-8-co-pilot" src="https://user-images.githubusercontent.com/58792/154723375-76907b87-9af2-4b25-8ac6-9fc63ea20ffb.png">
 
 
