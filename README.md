@@ -21,6 +21,10 @@ dotnet new console -o hello \
     && dotnet run
 ```
 
+![5-4-2-cloud9-project-setup](https://user-images.githubusercontent.com/58792/154769693-c4d45cbf-0d6d-4f9a-b8bc-395a1c91208a.png)
+
+
+
 ### Running Docker in Cloud9
 
 A good reference point is an AWS Lambda Dockerfile:
