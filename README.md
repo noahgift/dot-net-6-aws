@@ -64,7 +64,7 @@ To build a Lambda container on my Cloud9 environment I cd into the Lambda direct
 ```bash
 cd /home/ec2-user/environment/dot-net-6-aws/Lambda
 ```
-Then I run `docker build -t dotnet6-lambda .`
+Then I run `docker build -t dotnet6-lambda:latest .`
 
 #### Containerized .NET 6 on API
 
