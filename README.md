@@ -151,6 +151,11 @@ COPY --from=publish /app/publish .
 ENTRYPOINT ["dotnet", "WebServiceAWS"]
 ```
 
+Now build this container.
+
+`docker build . -t web-service-dotnet:latest`
+
+
 
 
 
