@@ -198,6 +198,31 @@ Now checkout the image:
 
 <img width="976" alt="5-7-app-runner" src="https://user-images.githubusercontent.com/58792/154722019-87efa041-ea03-40c4-a166-73122fc239a3.png">
 
+Select container:
+
+![5-7-2-app-runner-container](https://user-images.githubusercontent.com/58792/154760740-b62da26a-7ec0-4a11-9202-93d0866ed281.png)
+
+Select Deploy process:
+
+![5-7-3-app-runner-deploy](https://user-images.githubusercontent.com/58792/154760762-38d0237c-6562-407b-93d4-599e603c0d03.png)
+
+Select ports:
+
+![5-7-4-app-runner-ports](https://user-images.githubusercontent.com/58792/154760785-06dcf94c-55d2-445d-b83d-904ddfbd4be6.png)
+
+Select service:
+
+![5-7-5-app-runner-service](https://user-images.githubusercontent.com/58792/154760825-7d49948f-16ec-4d26-a33c-493511c39afa.png)
+
+Curl API:
+
+![5-7-6-app-runner-curl](https://user-images.githubusercontent.com/58792/154760885-45a7dc18-6658-4e27-b5bb-f1a3a8d6b3fb.png)
+
+Review Architecture:
+
+![5-7-7-app-runner-architecture](https://user-images.githubusercontent.com/58792/154760904-887b8c28-1787-4e21-b015-8495ba0d3ee1.png)
+
+
 
 ##### AWS Copilot CLI
 
